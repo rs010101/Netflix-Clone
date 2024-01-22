@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    background-image: url(images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px, 100px);
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav span {
+    margin: 10px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 19px;
+    text-align: center;
+}
+
+div button {
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 500;
+}
+
+.separation {
+    height: 7px;
+    background-color: gray;
+    opacity: 0.44;
+}
+
+.btn {
+    padding: 11px 33px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn-red-si {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 6px 17px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-red {
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 14px 34px;
+    font-weight: 600;
+    opacity: 0.86;
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    padding: 22px 136px 11px 12px;
+    font-size: 15px;
+    border: 1px solid rgba(237, 229, 229, 0.44);
+
+}
+
+.hero buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.first {
+    margin: auto;
+    height: 100%;
+    color: white;
+    padding: 130px 105px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.one {
+    font-size: 54px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first> :nth-child(2) {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.first> :nth-child(3) {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.first> :nth-child(4) {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+section .image img {
+    position: absolute;
+    right: 76px;
+    top: 500px;
+    z-index: auto;
+}
+
+.image video {
+    position: relative;
+    right: -630.5px;
+    top: -175px;
+    z-index: 2;
+}
+
+.line {
+    height: 5px;
+    background-color: gray;
+    width: 1369px;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.44;
+}
+
+.second {
+
+    margin: auto;
+    height: 100%;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second> :nth-child(1) {
+    position: relative;
+    top: -150px;
+    right: 5px;
+}
+
+.text> :nth-child(5) {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.text> :nth-child(4) {
+    padding: 3px;
+    font-weight: 300;
+    font-size: 22px;
+
+}
+
+.text {
+    position: relative;
+    top: -530px;
+    left: 800px;
+}
+
+.line2 {
+    height: 5px;
+    background-color: gray;
+    width: 1369px;
+    position: absolute;
+    bottom: -1080px;
+    opacity: 0.44;
+}
+
+.third {
+    position: relative;
+    top: -204px;
+    left: 29px;
+    margin: auto;
+    height: 100%;
+    color: white;
+    padding: 130px 105px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.three {
+    font-size: 54px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third> :nth-child(2) {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.third> :nth-child(3) {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+section .image2 img {
+    position: absolute;
+    right: 90px;
+    top: 60px;
+    z-index: 10;
+}
+
+.image2 video {
+    position: relative;
+    right: -630.5px;
+    top: -175px;
+    z-index: -1;
+}
+
+.line3 {
+    height: 5px;
+    background-color: gray;
+    width: 100%;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.44;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.fourth {
+    margin: auto;
+    height: 100%;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.four {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourth> :nth-child(1) {
+    position: relative;
+    top: -150px;
+    right: 5px;
+}
+
+.text> :nth-child(3) {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.text> :nth-child(5) {
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.text> :nth-child(4) {
+    padding: 3px;
+    font-weight: 300;
+    font-size: 22px;
+
+}
+
+.text {
+    position: relative;
+    top: -522px;
+    left: 735px;
+}
+
+.line4 {
+    height: 5px;
+    background-color: gray;
+    width: 1394px;
+    position: absolute;
+    top: 2993px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.44;
+}
+
+.faq {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -270px;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.faqbox {
+    display: flex;
+    height: 34px;
+    align-items: center;
+    text-align: left;
+    background-color: rgba(60, 57, 57, 0.955);
+    color: white;
+    padding: 24px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    width: 65vw;
+    margin: 14px;
+    position: relative;
+    top: -234px;
+    left: 164px;
+}
+
+section .ready {
+    color: white;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: -200px;
+    left: -64px;
+}
+
+.buttons-2>:nth-child(1) {
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    padding: 22px 136px 11px 12px;
+    font-size: 15px;
+    border: 1px solid rgba(237, 229, 229, 0.44);
+    position: relative;
+    top: -170px;
+    left: 360px;
+}
+
+
+.buttons-2>:nth-child(2) {
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 14px 34px;
+    font-weight: 600;
+    opacity: 0.86;
+    position: relative;
+    left: 370px;
+    top: -170px
+}
